@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="330.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="31.0" layoutY="81.0" text="흡연 : " />
+      <Label layoutX="30.0" layoutY="129.0" text="운동 : " />
+      <Label layoutX="30.0" layoutY="178.0" text="음주 : " />
+      <Label layoutX="31.0" layoutY="230.0" text="메모 : " />
+      <Label layoutX="31.0" layoutY="281.0" text="등록일 ; " />
+      <Separator layoutY="50.0" prefHeight="3.0" prefWidth="546.0" />
+      <ComboBox id="t1SubCmbSmoke" layoutX="107.0" layoutY="76.0" prefWidth="150.0" promptText="1갑" />
+      <ComboBox id="t1SubCmbExercise" layoutX="106.0" layoutY="124.0" prefWidth="150.0" promptText="헬스30분" />
+      <ComboBox id="t1SubCmbDrinking" layoutX="106.0" layoutY="173.0" prefWidth="150.0" promptText="맥주1병" />
+      <TextField id="t1SubTextMemo" layoutX="107.0" layoutY="225.0" prefHeight="29.0" prefWidth="150.0" promptText="입력해주세요." />
+      <DatePicker id="t1SubDatePicker" layoutX="107.0" layoutY="276.0" prefHeight="29.0" prefWidth="150.0" promptText="2019.01.29" />
+      <Separator layoutX="7.0" layoutY="327.0" prefHeight="3.0" prefWidth="494.0" />
+      <TextField id="t1SubTextEa" alignment="CENTER_RIGHT" layoutX="358.0" layoutY="76.0" prefWidth="150.0" promptText="4500원" />
+      <Label layoutX="290.0" layoutY="81.0" text="담배값 : " />
+      <Label layoutX="290.0" layoutY="129.0" text="술값 : " />
+      <TextField id="t1SubTextIa" alignment="CENTER_RIGHT" layoutX="358.0" layoutY="124.0" prefWidth="150.0" promptText="1700원" />
+      <Button id="t1SubBtnClose" layoutX="456.0" layoutY="14.0" mnemonicParsing="false" text="취소" />
+      <Button id="t1SubBtnSave" layoutX="394.0" layoutY="14.0" mnemonicParsing="false" text="저장" />
+      <Label layoutX="380.0" layoutY="178.0" opacity="0.36" text="담배 1갑 : 4500원" />
+      <Label layoutX="380.0" layoutY="216.0" opacity="0.36" text="맥주 1병 : 1700원" />
+      <Label layoutX="380.0" layoutY="253.0" opacity="0.36" text="소주 1병 : 1300원" />
+      <Label layoutX="367.0" layoutY="285.0" opacity="0.36" text="막걸리 1병 : 1200원" />
+      <Label layoutX="16.0" layoutY="16.0" text="등록해주세요.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

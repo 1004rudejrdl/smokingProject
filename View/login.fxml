@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="491.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.RootController">
+   <children>
+      <Label fx:id="label1" layoutX="152.0" layoutY="268.0" text="아이디" />
+      <TextField fx:id="textId" layoutX="220.0" layoutY="261.0" prefHeight="29.0" prefWidth="125.0" />
+      <PasswordField fx:id="textPassword" layoutX="220.0" layoutY="303.0" prefHeight="29.0" prefWidth="125.0" />
+      <Label fx:id="label1" layoutX="152.0" layoutY="310.0" text="패스워드" />
+      <Button fx:id="btnLogin" layoutX="191.0" layoutY="357.0" mnemonicParsing="false" text="로그인" />
+      <Button fx:id="btnCancel" layoutX="260.0" layoutY="357.0" mnemonicParsing="false" text="취소" />
+      <ImageView fitHeight="217.0" fitWidth="217.0" layoutX="142.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/background.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
